@@ -11,7 +11,7 @@ const Homepage = () => (
       <Button type="submit">Sign-In</Button>
     </Form>
     <p>
-      Don't have an account? <a>Sign-Up</a>{" "}
+      Don't have an account? <a href="">Sign-Up</a>
     </p>
   </Segment>
 );
