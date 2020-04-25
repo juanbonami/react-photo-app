@@ -5,6 +5,7 @@ export default class Signup extends Component {
   render() {
     return (
       <div>
+        {/* A segment is used to create a grouping of related content. A segment can have its colors "inverted" for contrast. */}
         <Segment inverted>
           <Form inverted style={{ maxWidth: 450 }}>
             <Form.Input label="E-mail" placeholder="E-mail" />
