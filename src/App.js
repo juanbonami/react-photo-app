@@ -11,7 +11,7 @@ import Signup from "./components/Signup";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
 
       <Router>
         <Link to="/">Sign-In Page</Link>
