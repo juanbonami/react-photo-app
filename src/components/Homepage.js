@@ -3,7 +3,7 @@ import { Button, Form, Segment } from "semantic-ui-react";
 
 const Homepage = () => (
 
-  <Segment inverted>
+  <Segment inverted style={{ maxWidth: 500 }}>
     <Form inverted style={{ maxWidth: 450 }}>
       <Form.Input fluid label="E-mail" placeholder="E-mail" />
       <Form.Input fluid label="Password" placeholder="Password" />
