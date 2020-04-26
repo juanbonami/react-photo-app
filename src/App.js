@@ -15,6 +15,7 @@ function App() {
     <div className="App" >
 
       <Router>
+        <Label>Have an account?</Label>
         <Link to="/">Sign-In</Link>
         <Label>Don't have an account?</Label>
         <Link to="/sign-up">Sign-Up</Link>
