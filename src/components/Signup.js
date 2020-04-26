@@ -6,7 +6,7 @@ export default class Signup extends Component {
     return (
       <div>
         {/* A segment is used to create a grouping of related content. A segment can have its colors "inverted" for contrast. */}
-        <Segment inverted>
+        <Segment inverted style={{ maxWidth: 500 }}>
           {/* A Form displays a set of related user input fields in a structured way. */}
           <Form inverted style={{ maxWidth: 450 }}>
             {/* A Form.Input displays an input field with "label" and "placeholder" as attributes. */}
