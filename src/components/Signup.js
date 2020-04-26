@@ -17,6 +17,7 @@ export default class Signup extends Component {
               label="Confirm Password"
               placeholder="Confirm Password"
             />
+            {/* A Button displays button with attribute type. */}
             <Button type="submit">Sign-Up</Button>
           </Form>
         </Segment>
