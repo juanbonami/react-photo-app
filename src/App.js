@@ -8,14 +8,16 @@ import {
 } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import Signup from "./components/Signup";
+import { Label } from "semantic-ui-react";
 
 function App() {
   return (
     <div className="App" >
 
       <Router>
-        <Link to="/">Sign-In Page</Link>
-        <Link to="/sign-up">Sign-Up Page</Link>
+        <Link to="/">Sign-In</Link>
+        <Label>Don't have an account?</Label>
+        <Link to="/sign-up">Sign-Up</Link>
 
         <Route exact path="/" component={Homepage} />
         <Route path="/sign-up" component={Signup} />
