@@ -4,7 +4,11 @@ import { Button, Form, Segment } from "semantic-ui-react";
 export default class Signup extends Component {
   render() {
     return (
-      <div>
+      <div style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
         {/* A segment is used to create a grouping of related content. A segment can have its colors "inverted" for contrast. */}
         <Segment inverted style={{ maxWidth: 500 }}>
           {/* A Form displays a set of related user input fields in a structured way. */}
