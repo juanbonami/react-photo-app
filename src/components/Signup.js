@@ -2,6 +2,15 @@ import React, { Component } from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
 
 export default class Signup extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      username: ''
+    }
+  }
+
+
   render() {
     return (
       <div style={{
