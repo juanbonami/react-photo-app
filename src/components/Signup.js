@@ -27,6 +27,12 @@ export default class Signup extends Component {
     })
   }
 
+  handleConfirmPassword = (e) => {
+    this.setState({
+      confirmPassword: e.target.value
+    })
+  }
+
 
   render() {
     return (
