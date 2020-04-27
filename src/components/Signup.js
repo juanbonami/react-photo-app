@@ -34,7 +34,7 @@ export default class Signup extends Component {
           <Form inverted style={{ maxWidth: 450 }}>
             {/* A Form.Input displays an input field with "label" and "placeholder" as attributes. */}
             <Form.Input label="E-mail" placeholder="E-mail" value={this.state.username} onChange={this.handleUsername} />
-            <Form.Input label="Password" placeholder="Password" />
+            <Form.Input label="Password" placeholder="Password" value={this.state.password} />
             <Form.Input
               fluid
               label="Confirm Password"
