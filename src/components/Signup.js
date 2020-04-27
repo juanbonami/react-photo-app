@@ -20,6 +20,12 @@ export default class Signup extends Component {
     })
   }
 
+  handlePassword = (e) => {
+    this.setState({
+      password: e.target.value
+    })
+  }
+
 
   render() {
     return (
