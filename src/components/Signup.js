@@ -53,6 +53,7 @@ export default class Signup extends Component {
               label="Confirm Password"
               placeholder="Confirm Password"
               value={this.state.confirmPassword}
+              onChange={this.handleConfirmPassword}
 
             />
             {/* A Button displays button with attribute type. */}
