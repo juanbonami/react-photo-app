@@ -23,7 +23,7 @@ export default class Signup extends Component {
           {/* A Form displays a set of related user input fields in a structured way. */}
           <Form inverted style={{ maxWidth: 450 }}>
             {/* A Form.Input displays an input field with "label" and "placeholder" as attributes. */}
-            <Form.Input label="E-mail" placeholder="E-mail" />
+            <Form.Input label="E-mail" placeholder="E-mail" value={this.state.username} />
             <Form.Input label="Password" placeholder="Password" />
             <Form.Input
               fluid
