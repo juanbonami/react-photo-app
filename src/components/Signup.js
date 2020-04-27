@@ -46,6 +46,8 @@ export default class Signup extends Component {
               fluid
               label="Confirm Password"
               placeholder="Confirm Password"
+              value={this.state.confirmPassword}
+
             />
             {/* A Button displays button with attribute type. */}
             <Button type="submit">Sign-Up</Button>
